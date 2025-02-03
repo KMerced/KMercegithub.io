@@ -1,0 +1,21 @@
+/* p {
+    text-align: center; color: rgb(90, 46, 5);
+}
+#para1 {
+    text-align: center; color: rgb(21, 85, 5);
+}
+.center {
+    text-align: center; color: green;
+} */
+
+body {
+	background: rgb(92, 50, 1);;
+	font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+	color: green;
+	text-align: center;
+}
+.about {
+    background: rgb(1, 66, 1);
+}
