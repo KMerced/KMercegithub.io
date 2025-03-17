@@ -19,3 +19,12 @@ h1 {
 .about {
     background: rgb(1, 66, 1);
 }
+
+.project img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(95, 52, 2); /* choose a color */
+    display: block;
+    margin: auto;
+}
