@@ -1,2 +1,2 @@
 # KMercegithub.io
- Repo for CSCE 190
+ Repo for CSCE 242
