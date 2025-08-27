@@ -1,0 +1,33 @@
+/* Structure */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#content {
+    background: lightblue;
+    width: 70%;
+    margin: auto; /* centers text */
+    padding: 10px; /* Takes text off the edge */
+    border-radius: 5px; /* Makes corners round */
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+}
+th, tr {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+th {
+    background: aquamarine;
+    color:blue;
+}
+
+
+/* Typography */
+h1 {
+    color:blue;
+}
+h2 {
+    color:aqua;
+}

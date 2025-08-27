@@ -1,0 +1,45 @@
+/* Structure */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../images/RubberDuckBackground.jpg);
+    background-size: cover;
+    text-align: center;
+}
+#mainstuff {
+    background: #F2CB07;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+}
+img {
+    width: 500px;
+    box-shadow: 10px 10px 10px #F2EC9B;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+}
+th, tr {
+    border: 2px dotted #261D01;
+    padding: 5px 5px;
+}
+th {
+    background: #F2EC9B;
+    color: #F27B35;
+}
+
+/* Typography */
+h1 {
+    color: #403001;
+}
+h2 {
+    color: #8C7A1F;
+}
+h3 {
+    color: #F28B30;
+}
+p {
+    color: #261D01;
+}

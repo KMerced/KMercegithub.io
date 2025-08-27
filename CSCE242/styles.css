@@ -1,0 +1,30 @@
+/* Structure */
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(images/codingbackground.jpg);
+    background-size: cover;
+}
+#assignmentlist {
+    background: #2C2940;
+    width: 40%;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/* Typography */
+h1 {
+    color: #6C91D9
+}
+h2 {
+    color: #8C2F1B;
+}
+p {
+    color: #B8C6D9;
+}
+li {
+    color: #0B030D;
+}
+a {
+    color: #F2C84B;
+    text-decoration: none;
+}
