@@ -1,0 +1,78 @@
+/* For devices with smaller screens */
+body {
+    background: #2A593E;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#content {
+    width: 95%;
+    margin: auto;
+    background: #60A672;
+    border-radius: 5px;
+    padding: 5px;
+}
+#main-header {
+    background: #C0D98B;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Main Navigation */
+#main-nav ul {
+    list-style-type: none; /* Removes bullet points from a list */
+    padding-left: 0;
+}
+#main-nav li {
+    border-bottom: 1px solid #2A593E;
+}
+#main-nav li:first-child {
+    border-top: 1px solid #2A593E;
+}
+#main-nav a {
+    color: #0D403B;
+    padding: 10px 0;
+    display: block;
+    text-decoration: none;
+}
+#main-nav a:hover {
+    background: #60A672;
+    color: #102026;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+    color: #102026;
+}
+
+/* For devices with bigger screens */
+@media only screen and (min-width: 768px) {
+    body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+}
+#content {
+    width: 70%;
+}
+
+/* Columns */
+.columns {
+    display: flex;
+}
+
+/* Main Nav */
+#main-nav li {
+    flex: 1;
+}
+#main-nav li, #main-nav li:first-child {
+    border: none;
+}
+#main-nav a {
+    text-align: center;
+    padding: 10px;
+}
+#main-nav a:hover {
+    background: #C0D98B;
+    color: #0D403B;
+    border-bottom: 1px solid #2A593E;
+}
+}

@@ -1,22 +1,37 @@
-/* Structure */
+/* For devices with smaller screens */
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-image: url(images/codingbackground.jpg);
-    background-size: cover;
-}
-#assignmentlist {
     background: #2C2940;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Structure */
+#assignment-list {
+    background: #2C2940;
+    margin: auto;
     width: 40%;
-    padding: 5px;
+    padding: 20px;
     border-radius: 10px;
+}
+img {
+    width: 300px;
+    height: 150px;
+    box-shadow: 10px 10px 10px #02000D;
+}
+
+/* Main Navigation */
+#assignment-nav ol {
+    list-style-type: none;
+    padding-left: 0;
 }
 
 /* Typography */
 h1 {
-    color: #6C91D9
+    color: #6C91D9;
+    text-align: center;
 }
 h2 {
     color: #8C2F1B;
+    text-align: center;
 }
 p {
     color: #B8C6D9;
@@ -27,4 +42,38 @@ li {
 a {
     color: #F2C84B;
     text-decoration: none;
+}
+p {
+    text-align: center;
+}
+
+/* Vertically stack everything in the list for smaller screens */
+@media (max-width: 600px) {
+    .list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* For devices with bigger screens */
+@media only screen and (min-width: 768px) {
+body {
+    background-image: url(images/codingbackground.jpg);
+    background-size: cover;
+}
+#assignment-list {
+    width: 50%;
+}
+
+/* The list itself */
+.list {
+    display: flex;
+}
+
+/* Assignment navigation */
+#assignment-nav li {
+    flex: 1;
+    text-align: center;
+}
 }
