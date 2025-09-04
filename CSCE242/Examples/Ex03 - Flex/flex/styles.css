@@ -15,6 +15,37 @@ body {
     border-radius: 5px;
     padding: 5px;
 }
+#main-content section, #main-content aside {
+    padding: 5px;
+}
+.squirrel {
+    background: #2A593E;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+/*.squirrel .columns div {
+    width: 30%;
+}*/
+
+/* Gallery */
+#gallery {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#gallery section {
+    text-align: center;
+    width: 25%;
+}
+#gallery img {
+    padding: 5px;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+}
+
 
 /* Main Navigation */
 #main-nav ul {
@@ -43,6 +74,12 @@ h1 {
     text-align: center;
     color: #102026;
 }
+.hide {
+    display: none;
+}
+.hide small {
+    display: none;
+}
 
 /* For devices with bigger screens */
 @media only screen and (min-width: 768px) {
@@ -57,6 +94,21 @@ h1 {
 /* Columns */
 .columns {
     display: flex;
+}
+.one {
+    flex: 1;
+}
+.two {
+    flex: 2;
+}
+.three {
+    flex: 3;
+}
+.four {
+    flex: 4;
+}
+.five {
+    flex: 5;
 }
 
 /* Main Nav */
@@ -74,5 +126,8 @@ h1 {
     background: #C0D98B;
     color: #0D403B;
     border-bottom: 1px solid #2A593E;
+}
+.hide-small {
+    display: block;
 }
 }

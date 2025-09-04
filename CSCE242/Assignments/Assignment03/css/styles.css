@@ -1,0 +1,165 @@
+/* For devices with smaller screens */
+body {
+    background: #A66D05;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#content {
+    width: 80%;
+    margin: auto;
+    background: #734002;
+    border-radius: 5px;
+    padding: 10px;
+}
+#main-header {
+    background: #A65D05;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+#main-content section, #main-content aside {
+    padding: 10px;
+}
+
+/* Main Navigation */
+#main-nav ul {
+    list-style-type: none; /* Removes bullet points from a list */
+    padding-left: 0;
+}
+#main-nav li {
+    border-bottom: 1px solid #2C5273;
+}
+#main-nav a {
+    color: #F2E2C4;
+    background: #BFA678;
+    padding: 10px 0;
+    display: block;
+    text-decoration: none;
+}
+
+/* Links Section */
+.links {
+    width: 95%;
+    margin: auto;
+    background: #4D748C;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+/* Gallery Section */
+.gallery {
+    width: 95%;
+    margin: auto;
+    background: #364F59;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+/* Favorite Ducks Section */
+.favorites {
+    width: 95%;
+    margin: auto;
+    background: #402504;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+    color: #F2E2C4;
+}
+h2 {
+    text-align: center;
+    color: #F2E2C4;
+}
+h3 {
+    text-align: center;
+    color: #F2E2C4;
+}
+p {
+    text-align: center;
+    color: #BFA678;
+}
+a {
+    color: #BFA678;
+}
+
+/* For devices with bigger screens */
+@media only screen and (min-width: 768px) {
+    body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+#content {
+    width: 70%;
+}
+
+/* Columns */
+.columns {
+    display: flex;
+}
+
+/* Main Nav */
+#main-nav li {
+    flex: 1;
+    border-top: 1px solid #2C5273;
+    border-right: 1px solid #2C5273;
+}
+#main-nav a {
+    text-align: center;
+    padding: 10px;
+}
+.hide-small {
+    display: block;
+}
+
+/* Duck Brands Section */
+#duck-brands {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    gap: 20px;
+}
+#duck-brands2 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    gap: 20px;
+}
+#duck-brands3 {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    gap: 20px;
+}
+.makeright {
+    flex-direction: row-reverse;
+}
+
+/* Gallery Section */
+.gallery {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Typography */
+h2 {
+    text-align: left;
+}
+h3 {
+    text-align: left;
+}
+p {
+    text-align: left;
+}
+}
