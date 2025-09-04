@@ -21,7 +21,7 @@ body {
 
 /* Main Navigation */
 #main-nav ul {
-    list-style-type: none; /* Removes bullet points from a list */
+    list-style-type: none;
     padding-left: 0;
 }
 #main-nav li {
@@ -140,6 +140,7 @@ a {
     padding: 10px;
     gap: 20px;
 }
+/* This never really worked */
 .makeright {
     flex-direction: row-reverse;
 }
