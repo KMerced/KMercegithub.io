@@ -1,0 +1,481 @@
+:root {
+    --primary-color: #75000A;
+    --secondary-color: #000000;
+    --thirdary-color: #FFFFFF;
+    --connections-section: #1F404D;
+}
+
+/* For devices with smaller screens */
+body {
+    background: #9E1309;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main-content {
+    width: 95%;
+    margin: auto;
+    background: var(--secondary-color);
+    border-radius: 5px;
+    padding: 5px;
+}
+#main-header {
+    position: relative;
+}
+#main-header img {
+    display: block;
+    position: absolute;
+    top: -14%;
+    left: 0;
+    width: 100px;
+}
+
+/* Main Nav */
+#main-nav {
+    width: 95%;
+    position: relative;
+    margin: auto;
+    background: var(--primary-color);
+    border-radius: 5px;
+    padding: 5px;
+}
+#main-nav a {
+    color: var(--thirdary-color);
+    padding: 10px 0;
+    display: block;
+}
+#main-nav li {
+    border-bottom: 1px solid var(--thirdary-color);
+}
+#main-nav li:first-child {
+    border-top: 1px solid var(--thirdary-color);
+}
+
+/* Main Image */
+#main-image {
+    position: relative;
+}
+#main-image p {
+    background: var(--thirdary-color);
+    color: var(--primary-color);
+    padding: 10px;
+    width: fit-content;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 0;
+}
+#description {
+    width: 95%;
+    margin: auto;
+    background: var(--thirdary-color);
+    border-radius: 5px;
+    padding: 5px;
+}
+#description p {
+    text-align: center;
+}
+
+/* Academics Section */
+#academics-desc {
+    width: 95%;
+    margin: auto;
+    background: var(--primary-color);
+    border-radius: 5px;
+}
+#academics-desc h2 {
+    color: var(--thirdary-color);
+    text-align: center;
+}
+#academics-desc p {
+    color: var(--thirdary-color);
+    text-align: center;
+}
+#academics-desc a {
+    width: 95%;
+    margin: auto;
+    background: var(--secondary-color);
+    color: var(--thirdary-color);
+    padding: 10px;
+}
+
+/* Programs Section */
+#programs {
+    width: 95%;
+    margin: auto;
+    background: var(--thirdary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+#programs h2 {
+    color: var(--primary-color);
+    text-align: center;
+}
+#programs p {
+    text-align: center;
+}
+#programs a {
+    display: block;
+    width: 75%;
+    margin: 10px auto;
+    text-align: center;
+    background: var(--primary-color);
+    color: var(--thirdary-color);
+    padding: 10px;
+}
+
+/* Research Section */
+#research-image {
+    position: relative;
+}
+#research-image h2{
+    background: var(--secondary-color);
+    color: var(--thirdary-color);
+    padding: 10px;
+    width: fit-content;
+}
+#research-image p {
+    background: var(--secondary-color);
+    color: var(--thirdary-color);
+    padding: 55px;
+    width: fit-content;
+}
+#research-image a {
+    background: var(--primary-color);
+    color: var(--thirdary-color);
+    padding: 10px;
+    width: fit-content;
+}
+#research-image {
+    position: relative;
+}
+#research-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    bottom: -5%;
+    right: 60%;
+    max-width: 280px;
+}
+#research-text h2 {
+    margin-bottom: -20px;
+}
+#research-text p {
+    margin-bottom: -50px;
+    margin-right: -10px;
+}
+#research-text a {
+    display: inline-block;
+}
+
+/* Quote Section */
+#quote {
+    width: 95%;
+    margin: auto;
+    background: var(--primary-color);
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+}
+#quote p {
+    color: var(--thirdary-color);
+}
+#quote img {
+    display: block;
+    margin: auto;
+    width: 200px;
+    border-radius: 100px;
+}
+
+/* Connections Section */
+#connections-desc {
+    width: 95%;
+    margin: auto;
+    background: var(--connections-section);
+    border-radius: 5px;
+    padding: 5px;
+}
+#connections-desc h2 {
+    color: var(--thirdary-color);
+}
+#connections-desc p {
+    color: var(--thirdary-color);
+}
+#connections-desc a {
+    width: 95%;
+    margin: auto;
+    background: var(--primary-color);
+    color: var(--thirdary-color);
+    padding: 10px;
+}
+
+/* News Section */
+#news {
+    width: 95%;
+    margin: auto;
+    background: var(--thirdary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+#news h2 {
+    color: var(--primary-color);
+    text-align: center;
+}
+#news h3 {
+    color: var(--primary-color);
+    text-align: center;
+}
+#news p {
+    text-align: center;
+}
+#news a {
+    width: 95%;
+    margin: auto;
+    background: var(--primary-color);
+    color: var(--thirdary-color);
+    padding: 10px;
+}
+#news img {
+    display: block;
+    margin: auto;
+}
+
+/* Generations Section */
+#generations {
+    width: 95%;
+    margin: auto;
+    background: var(--secondary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+#generations h2 {
+    color: var(--thirdary-color);
+}
+#generations p {
+    color: var(--thirdary-color);
+}
+#generations a {
+    width: 95%;
+    margin: auto;
+    background: var(--primary-color);
+    color: var(--thirdary-color);
+    padding: 10px;
+}
+
+/* College Info Section */
+#college-info {
+    width: 95%;
+    margin: auto;
+    background: var(--thirdary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+#college-info a {
+    color: var(--primary-color);
+}
+#mymccausland a{
+    width: 95%;
+    margin: auto;
+    background: var(--secondary-color);
+    color: var(--thirdary-color);
+    padding: 10px;
+}
+/* Centered everything for small screens */
+@media (max-width: 768px) {
+    #college-info {
+        text-align: center;
+    }
+    #location p {
+        text-align: center;
+    }
+}
+
+/* Misc Section */
+#misc {
+    width: 95%;
+    margin: auto;
+    background: var(--primary-color);
+    color: var(--thirdary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+#misc a {
+    color: var(--thirdary-color);
+}
+@media (max-width: 768px) {
+    #misc {
+        text-align: center;
+    }
+}
+
+/* Typography */
+h1 {
+    color: var(--thirdary-color);
+    text-align: right;
+}
+h2 {
+    color: var(--thirdary-color);
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+
+/* For devices with bigger screens */
+@media only screen and (min-width: 768px) {
+    body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+/* Main Nav */
+.columns {
+    display: flex;
+}
+#main-nav li {
+    flex: 1;
+}
+#main-nav li, #main-nav li:first-child {
+    border: none;
+}
+#main-nav a {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Academics Section */
+#academics {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#academics-desc {
+    flex: 1;
+    padding: 140px;
+}
+
+/* Programs Section */
+#programs li {
+    flex: 1;
+    margin: 0 220px;
+}
+
+/* Research Section */
+#research-image {
+    position: relative;
+}
+#research-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    max-width: 400px;
+}
+#research-text h2 {
+    margin-bottom: -20px;
+}
+#research-text p {
+    margin-bottom: -50px;
+    margin-right: -10px;
+}
+#research-text a {
+    display: inline-block;
+}
+
+/* Quote Section */
+#quote {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#quote p {
+    flex: 1;
+}
+
+/* Connections Section */
+#connections {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#connections-desc {
+    flex: 1;
+    padding: 175px;
+}
+
+/* News Section */
+#news h2 {
+    text-align: center;
+}.news-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.news-items {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.news-items img {
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/* Generations Section */
+#generations {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+#generations-desc {
+    flex: 1;
+    padding: 140px;
+}
+
+/* College Info Section */
+#socials ul {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    margin: auto;
+    gap: 15px;
+}
+#nav-stuff ul {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    margin: auto;
+    gap: 15px;
+}
+#nav-stuff ul:not(:last-child)::before::after {
+    content: "|";
+}
+#location a {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: auto;
+}
+
+/* Misc Section */
+#misc ul {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: auto;
+    gap: 25px;
+}
+}

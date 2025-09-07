@@ -1,25 +1,39 @@
 /* For devices with smaller screens */
+:root {
+    --primary-color: #2A593E;
+    --secondary-color: #60A672;
+    --third-color: #C0D98B;;
+}
 body {
-    background: #2A593E;
+    background: var(--primary-color);
     font-family:Arial, Helvetica, sans-serif;
 }
 #content {
     width: 95%;
     margin: auto;
-    background: #60A672;
+    background: var(--secondary-color);
     border-radius: 5px;
     padding: 5px;
 }
 #main-header {
-    background: #C0D98B;
+    background: var(--third-color);
     border-radius: 5px;
     padding: 5px;
+    position: relative;
+}
+#main-header img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    border-radius: 50px;
 }
 #main-content section, #main-content aside {
     padding: 5px;
 }
 .squirrel {
-    background: #2A593E;
+    background: var(--primary-color);
     padding: 5px;
     border-radius: 5px;
     margin: 5px;
@@ -28,6 +42,21 @@ body {
     width: 30%;
 }*/
 
+
+/* Showcase */
+#showcase {
+    position: relative;
+}
+#showcase p {
+    background: var(--primary-color);
+    color: white;
+    padding: 10px;
+    width: fit-content;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    right: 0;
+}
 /* Gallery */
 #gallery {
     flex-wrap: wrap;
@@ -48,25 +77,40 @@ img {
 
 
 /* Main Navigation */
-#main-nav ul {
+nav ul {
     list-style-type: none; /* Removes bullet points from a list */
     padding-left: 0;
 }
+nav a {
+    text-decoration: none;
+}
 #main-nav li {
-    border-bottom: 1px solid #2A593E;
+    border-bottom: 1px solid var(--primary-color);
 }
 #main-nav li:first-child {
-    border-top: 1px solid #2A593E;
+    border-top: 1px solid var(--primary-color);
 }
 #main-nav a {
     color: #0D403B;
     padding: 10px 0;
     display: block;
-    text-decoration: none;
 }
 #main-nav a:hover {
-    background: #60A672;
+    background: var(--secondary-color);
     color: #102026;
+}
+#login {
+    position: absolute;
+    top: 1%;
+    right: 2%;
+}
+#login a {
+    color: var(--primary-color);
+    padding: 5px;
+    display: block;
+}
+#login a:hover {
+    border-bottom: 1px solid var(--primary-color);
 }
 
 /* Typography */
@@ -123,9 +167,15 @@ h1 {
     padding: 10px;
 }
 #main-nav a:hover {
-    background: #C0D98B;
+    background: var(--third-color);
     color: #0D403B;
-    border-bottom: 1px solid #2A593E;
+    border-bottom: 1px solid var(--primary-color);
+}
+#login a {
+    display: inline;
+}
+#login li:not(:last-child)::after { /*Adds to the end of every list item EXCEPT the last one*/
+    content: "|";
 }
 .hide-small {
     display: block;
