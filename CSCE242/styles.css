@@ -24,6 +24,10 @@ img {
     list-style-type: none;
     padding-left: 0;
 }
+#project-nav ol {
+    list-style-type: none;
+    padding-left: 0;
+}
 
 /* Typography */
 h1 {
@@ -71,9 +75,18 @@ body {
 .list {
     display: flex;
 }
+.list li a {
+    display: block;
+    text-align: center;
+}
+
 
 /* Assignment navigation */
 #assignment-nav li {
+    flex: 1;
+    text-align: center;
+}
+#project-nav li {
     flex: 1;
     text-align: center;
 }
