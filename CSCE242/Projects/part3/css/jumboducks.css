@@ -1,0 +1,86 @@
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --thirdary-color: gray;
+}
+
+/*Small screens */
+body {
+    background: var(--primary-color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#jumboducks-nav {
+    width: 95%;
+    margin: auto;
+    background: var(--secondary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#jumboducks-header {
+    background: var(--thirdary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Jumbo ducks items */
+#jumboducks-main {
+    text-align: center;
+}
+.jumboducks {
+    width: 95%;
+    background: var(--primary-color);
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+/* Columns */
+.columns {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+/* Back button */
+.back-button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    background: var(--secondary-color);
+    padding: 10px;
+}
+
+/* Big screens */
+@media only screen and (min-width: 768px) {
+    .jumboducks {
+        width: 20%;
+    }
+    .columns {
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+}
+

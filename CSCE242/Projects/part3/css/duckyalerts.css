@@ -1,0 +1,56 @@
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --thirdary-color: gray;
+}
+
+/* Small screens */
+body {
+        background: var(--primary-color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#alerts-nav {
+    width: 95%;
+    margin: auto;
+    background: var(--secondary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#alerts-header {
+    background: var(--thirdary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Back button */
+.back-button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 70px auto;
+    text-align: center;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    background: var(--secondary-color);
+    padding: 10px;
+}

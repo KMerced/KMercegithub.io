@@ -1,0 +1,106 @@
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --thirdary-color: gray;
+}
+
+/* Small screens */
+body {
+    background: var(--primary-color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Duck info borders for small screens only */
+@media (max-width: 768px) {
+#image {
+    border: 1px solid var(--thirdary-color);
+}
+#basic-info {
+    border: 1px solid var(--thirdary-color);
+}
+#story {
+    border: 1px solid var(--thirdary-color);
+}
+}
+
+/* Back button */
+.back-button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    background: var(--secondary-color);
+    padding: 10px;
+}
+
+/* Big screens */
+@media only screen and (min-width: 768px) {
+    .duck-stuff {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 40px;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid var(--thirdary-color);
+    }
+    .duck-info {
+        flex: 1;
+        padding: 20px;
+        border-left: 1px solid var(--thirdary-color);
+    }
+
+    /* Images */
+    #image {
+        flex: 1;
+    }
+    #image img {
+        max-width: 400px;
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    /* Information stuff */
+    #basic-info {
+        flex: 1;
+        text-align: center;
+        border-bottom: 1px solid var(--thirdary-color);
+    }
+    #story {
+        flex: 1;
+        text-align: center;
+    }
+
+    /* Typography */
+    h3 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    #story p {
+        text-align: left;
+    }
+}

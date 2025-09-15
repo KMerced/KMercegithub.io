@@ -1,0 +1,71 @@
+/* Smaller screens */
+body {
+    background: #3E7A6B;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Sections */
+.stuff {
+    width: 95%;
+    margin: auto;
+    background: #30BA98;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Columns */
+.columns {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Sunny indent */
+#beatles-song1 {
+    text-indent: 10px;
+}
+#beatles-song2 {
+    text-indent: 30px;
+}
+#beatles-song3 {
+    text-indent: 50px;
+}
+#beatles-song4 {
+    text-indent: 70px;
+}
+#beatles-song5 {
+    text-indent: 10px;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+    color: #02FABA;
+}
+h2 {
+    text-align: center;
+    color: #503C36;
+}
+h3 {
+    text-align: center;
+    color: #A55339;
+}
+p {
+    color: #FA3E02;
+}
+
+/* Bigger screens */
+@media only screen and (min-width: 768px) {
+    .stuff {
+        width: 20%;
+    }
+
+    /* Columns */
+    .columns {
+        display: flex;
+        gap: 40px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

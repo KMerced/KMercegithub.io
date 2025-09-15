@@ -233,6 +233,21 @@ footer p {
     text-align:center;
 }
 
+.clicked {
+    background: magenta;
+    color: white;
+}
+
+.clicked-on-happy {
+    background: yellow;
+    color: black;
+}
+
+.clicked-on-sad {
+    background: blue;
+    color: white;
+}
+
 #map {
     width:100%;
     height:500px;

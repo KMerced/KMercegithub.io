@@ -37,7 +37,25 @@
             <main class="columns examples">
                 <section>
                     <button id="btn-click-me">Click Me!</button>
-                    <p></p>
+                    <p id="p-welcome"></p>
+                </section>
+                <section>
+                    <button id="happy-button">Happy</button>
+                    <p id="happy-message"></p>
+
+                    <button id="sad-button">Sad</button>
+                    <p id="sad-message"></p>
+
+                    <button id="clear-stuff">Clear</button>
+                    <p id="clear"></p>
+                </section>
+                <section>
+                    <p>
+                        <label for="txt-emotion">Enter your current emotion:</label>
+                        <input type="text" id="txt-emotion">
+                    </p>
+                    <p id="p-emotion"></p>
+                    <img id="img-emotion" src="https://placehold.co/100x100" class="hidden">
                 </section>
             </main>
             <footer>
@@ -45,5 +63,6 @@
             </footer>
         </div>
         <script src="js/intro.js"></script>
+        <script src="js/toggle-nav.js"></script>
     </body>
 </html>

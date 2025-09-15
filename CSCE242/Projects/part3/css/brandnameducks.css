@@ -1,0 +1,144 @@
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --thirdary-color: gray;
+}
+
+/*Smaller screens */
+body {
+    background: var(--primary-color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#brandnameducks-nav {
+    width: 95%;
+    margin: auto;
+    background: var(--secondary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#brandnameducks-header {
+    background: var(--thirdary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Brand nav */
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+nav a {
+    text-decoration: none;
+}
+#brand-nav li {
+    border-bottom: 1px solid var(--primary-color);
+}
+#brand-nav li:first-child {
+    border-top: 1px solid var(--primary-color);
+}
+#brand-nav a {
+    color: var(--secondary-color);
+    padding: 10px 0;
+    display: block;
+}
+#brand-nav a:hover {
+    background: var(--primary-color);
+}
+
+/* Brandducks items */
+#brandducks-main {
+    text-align: center;
+}
+.brand-ducks {
+    width: 95%;
+    background: var(--primary-color);
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+}
+.brand-ducks a {
+    text-align: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    background: var(--secondary-color);
+    padding: 10px;
+}
+
+/* Columns */
+.columns {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+/* Back button */
+.back-button {
+    width: 50%;
+    background: var(--secondary-color);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+}
+.back-button a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+/* Big Screens */
+@media only screen and (min-width: 768px) {
+    /* Columns */
+    .columns {
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+
+    /* Nav */
+    .nav {
+        display: flex;
+    }
+
+    /* Main navigation */
+    #brand-nav li {
+        flex: 1;
+    }
+    #brand-nav li, #brand-nav li:first-child {
+    border: none;
+    }
+    #brand-nav a {
+    text-align: center;
+    padding: 10px;
+    }
+    #brand-nav a:hover {
+        border-bottom: 1px solid var(--primary-color);
+        background: var(--thirdary-color);
+    }
+
+    /*Brand ducks */
+    .brand-ducks {
+        width: 20%;
+}
+
+    /* Back Button */
+    .back-button {
+        width: 10%;
+}
+}
