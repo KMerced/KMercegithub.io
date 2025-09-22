@@ -1,0 +1,72 @@
+:root {
+    --primary-color: #F28705;
+    --secondary-color: #F29F05;
+    --thirdary-color: #F2B705;
+    --fourthary-color: #260B01;
+    --fifthary-color: #401E01;
+    --sixthary-color: #D93D04;
+}
+
+/* Small screens */
+body {
+        background: var(--primary-color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#alerts-nav {
+    width: 95%;
+    margin: auto;
+    background: var(--secondary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#alerts-header {
+    background: var(--thirdary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Back button */
+.back-button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 70px auto;
+    text-align: center;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+    color: var(--fourthary-color);
+}
+h3 {
+    text-align: center;
+    color: var(--fifthary-color);
+}
+h4 {
+    text-align: center;
+    color: var(--sixthary-color);
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+}
+a {
+    color: var(--sixthary-color);
+    text-decoration: none;
+    background: var(--secondary-color);
+    padding: 10px;
+}
+
+/* Big screens */
+@media only screen and (min-width: 768px) {
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+}

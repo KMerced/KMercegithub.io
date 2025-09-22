@@ -87,6 +87,10 @@ main {
     color:purple;
 }
 
+.error {
+    color: red;
+}
+
 .sub-section a {
     text-decoration:none;
     color:var(--primary-color);
@@ -123,9 +127,9 @@ main {
 }
 
 #ball {
-    animation-name: fun;
+    /*animation-name: fun;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite;*/
 }
 
 /* Donations */
@@ -169,6 +173,12 @@ h2 {
         top:0px;
         left:0;
     }
+  }
+
+  .bounce {
+    animation-name: fun;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
   }
 
 /* Playing with positioning */

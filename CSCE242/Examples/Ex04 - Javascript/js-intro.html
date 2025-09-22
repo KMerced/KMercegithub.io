@@ -36,10 +36,12 @@
             </header>
             <main class="columns examples">
                 <section>
+                    <h3>Buttons</h3>
                     <button id="btn-click-me">Click Me!</button>
                     <p id="p-welcome"></p>
                 </section>
                 <section>
+                    <h3>Emotion Buttons</h3>
                     <button id="happy-button">Happy</button>
                     <p id="happy-message"></p>
 
@@ -50,12 +52,44 @@
                     <p id="clear"></p>
                 </section>
                 <section>
+                    <h3>Emotion Input</h3>
                     <p>
                         <label for="txt-emotion">Enter your current emotion:</label>
                         <input type="text" id="txt-emotion">
                     </p>
                     <p id="p-emotion"></p>
                     <img id="img-emotion" src="https://placehold.co/100x100" class="hidden">
+                </section>
+                <section>
+                    <h3>Mood Ring</h3>
+                    <label for="txt-color"></label>
+                    <input type="txt" id="txt-color">
+                    <span id="error-color" class="error"></span>
+                    <button id="color-button">Show</button>
+                    <p id="show-color"></p>
+                </section>
+                <section>
+                    <h3>Animation Stuff</h3>
+                    <button id="ball-button">Start animation</button>
+                    <div id="ball"></div>
+                </section>
+                <section>
+                    <h3>Counting</h3>
+                    <button id="counter-button-start">Start counting</button>
+                    <button id="counter-button-stop">Stop counting</button>
+                    <p id="counting"></p>
+                </section>
+                <section>
+                    <h3>Donation Goal: <span id="money-goal"></span></h3>
+                    <p>
+                    <label for="txt-donation">Donations:</label>
+                    <input type="txt" id="txt-donation">
+                    <span id="donation-error" class="error"></span>
+                    </p>
+                    <p><button id="donation-button">Donate amount</button></p>
+                    <div id="thermometer">
+                        <p id="goal-message"></p>
+                    </div>
                 </section>
             </main>
             <footer>
