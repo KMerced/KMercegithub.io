@@ -1,0 +1,146 @@
+:root {
+    --primary-color: lightblue;
+    --secondary-color: darkblue;
+    --thirdary-color: hotpink;
+    --fourthary-color: black;
+    --fifthary-color: yellow;
+    --sixthary-color: beige;
+}
+
+body {
+    background: var(--primary-color);
+}
+
+/*Button*/
+.button {
+	text-align: center;
+}
+
+/*CSS art*/
+
+/*Cloud*/
+/*Credit: https://codepen.io/fershocastro/pen/dVBgxQ/*/
+.cloud {
+	width: 350px; height: 120px;
+	
+	background: #f2f9fe;
+	background: linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	background: -webkit-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	background: -moz-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	background: -ms-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	background: -o-linear-gradient(top, #f2f9fe 5%, #d6f0fd 100%);
+	
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	
+	position: absolute;
+	margin: 120px auto 20px;
+}
+
+.cloud:after, .cloud:before {
+	content: '';
+	position: absolute;
+	background: #f2f9fe;
+	z-index: -1
+}
+
+.cloud:after {
+	width: 100px; height: 100px;
+	top: -50px; left: 50px;
+	
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+}
+
+.cloud:before {
+	width: 180px; height: 180px;
+	top: -90px; right: 50px;
+	border-radius: 200px;
+	-webkit-border-radius: 200px;
+	-moz-border-radius: 200px;
+}
+
+/*Trees*/
+/*Credit: https://codinhood.com/nano/css/simple-tree-in-css/*/
+.tree {
+  height: 400px;
+  width: 250px;
+  position: relative;
+}
+
+.branch {
+   position: absolute;
+}
+
+.branch-1 {
+  top: 50px;
+  left: 43px;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 120px solid #27ae60;
+}
+
+.branch-2 {
+  top: 80px; 
+  left: 23px;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 160px solid #27ae60;
+}
+.branch-3 {
+  top: 130px; 
+  left: 0px;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  border-bottom: 200px solid #27ae60;
+}
+ 
+.trunk {
+  height: 70px;
+  width: 50px;
+  background: tan;
+  position: absolute;
+  bottom: 0;
+  left: 100px;
+}
+
+/*Sun and moon*/
+.sun {
+	width: 120px;
+	height: 120px;
+	background: var(--fifthary-color);
+	border-radius: 50%;
+	position: absolute;
+	top: 5%;
+	right: 5%;
+}
+.moon {
+	width: 120px;
+	height: 120px;
+	background: var(--sixthary-color);
+	border-radius: 50%;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+}
+
+/*Hidden class*/
+.hidden {
+	display: none;
+}
+
+/*Typography*/
+h1 {
+    text-align: center;
+    color: var(--secondary-color);
+}
+h2 {
+    text-align: center;
+    color: var(--thirdary-color);
+}
+h3 {
+	text-align: center;
+	color: var(--thirdary-color);
+}
