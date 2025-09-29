@@ -1,0 +1,175 @@
+:root {
+    --primary-color: #F28705;
+    --secondary-color: #F29F05;
+    --thirdary-color: #F2B705;
+    --fourthary-color: #260B01;
+    --fifthary-color: #401E01;
+    --sixthary-color: #D93D04;
+}
+
+/* Small screens */
+body {
+    background: var(--thirdary-color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Duck info borders for small screens only */
+@media (max-width: 768px) {
+#title {
+    border: 1px solid var(--primary-color);
+}
+#nav {
+    border: 1px solid var(--primary-color);
+}
+#image {
+    border: 1px solid var(--primary-color);
+}
+#basic-info {
+    border: 1px solid var(--primary-color);
+}
+#story {
+    border: 1px solid var(--primary-color);
+}
+}
+
+/* Main navigation */
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+nav a {
+    text-decoration: none;
+}
+#main-nav li {
+    text-align: center;
+    padding: 20px;
+}
+
+/*Hamburger menu*/
+.hamburger {
+    cursor: pointer;
+    padding: 10px;
+    color: var(--sixthary-color);
+}
+
+/*Hidden class*/
+.hide-small {
+    display:none;
+}
+
+/* Back button */
+.back-button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    text-align: center;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+    color: var(--fourthary-color);
+}
+h2 {
+    text-align: center;
+    color: var(--fifthary-color);
+}
+h3 {
+    text-align: center;
+    color: var(--fifthary-color);
+}
+p {
+    text-align: center;
+    color: var(--fifthary-color);
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+}
+a {
+    color: var(--sixthary-color);
+    text-decoration: none;
+    background: var(--secondary-color);
+    padding: 10px;
+}
+
+/* Big screens */
+@media only screen and (min-width: 768px) {
+    .duck-stuff {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        gap: 40px;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid var(--primary-color);
+    }
+    .duck-info {
+        flex: 1;
+        padding: 20px;
+        border-left: 1px solid var(--primary-color);
+    }
+
+    .columns {
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+    #main-nav li {
+        flex: 1;
+    }
+    #main-nav li, #main-nav li:first-child {
+    border: none;
+    }
+    #main-nav a {
+    text-align: center;
+    padding: 10px;
+    }
+
+     /*Hamburger*/
+    .hamburger {
+        display: none;
+    }
+
+    /*Hidden class*/
+    .hide-small {
+        display: block;
+    }
+
+    /* Images */
+    #image {
+        flex: 1;
+    }
+    #image img {
+        width: 500px;
+        height: 500px;
+        border-radius: 8px;
+    }
+
+    /* Information stuff */
+    #basic-info {
+        flex: 1;
+        text-align: center;
+        border-bottom: 1px solid var(--primary-color);
+    }
+    #story {
+        flex: 1;
+        text-align: center;
+    }
+
+    /* Typography */
+    h3 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    #story p {
+        text-align: left;
+    }
+}

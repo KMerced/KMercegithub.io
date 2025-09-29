@@ -1,0 +1,150 @@
+:root {
+    --primary-color: #F28705;
+    --secondary-color: #F29F05;
+    --thirdary-color: #F2B705;
+    --fourthary-color: #260B01;
+    --fifthary-color: #401E01;
+    --sixthary-color: #D93D04;
+}
+
+/* Smaller screens */
+body {
+    background: var(--primary-color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#allducks-nav {
+    width: 95%;
+    margin: auto;
+    background: var(--secondary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#allducks-header {
+    background: var(--thirdary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Main navigation */
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+nav a {
+    text-decoration: none;
+}
+#main-nav li {
+    text-align: center;
+    padding: 10px;
+}
+
+/*Hamburger menu*/
+.hamburger {
+    cursor: pointer;
+    padding: 10px;
+    color: var(--sixthary-color);
+}
+
+/*Hidden class*/
+.hide-small {
+    display:none;
+}
+
+/* Duck items */
+#all-ducks-main {
+    text-align: center;
+}
+.all-ducks {
+    width: 95%;
+    background: var(--primary-color);
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+}
+.all-ducks a {
+    text-align: center;
+}
+
+/* Columns */
+.columns {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+/* Back button */
+.back-button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+    color: var(--fourthary-color);
+}
+h2 {
+    text-align: center;
+    color: var(--fifthary-color);
+}
+h3 {
+    text-align: center;
+    color: var(--fifthary-color);
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+}
+a {
+    color: var(--sixthary-color);
+    text-decoration: none;
+    background: var(--secondary-color);
+    padding: 10px;
+}
+
+/* Big screens */
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url(../images/background.jpg);
+        background-size: cover;
+    }
+    .all-ducks {
+        width: 20%;
+}
+    .columns {
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+
+    /* Main navigation */
+    #main-nav li {
+        flex: 1;
+    }
+    #main-nav li, #main-nav li:first-child {
+    border: none;
+    }
+    #main-nav a {
+    text-align: center;
+    padding: 10px;
+    }
+
+     /*Hamburger*/
+    .hamburger {
+        display: none;
+    }
+
+    /*Hidden class*/
+    .hide-small {
+        display: block;
+    }
+}

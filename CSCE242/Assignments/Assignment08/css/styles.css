@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #4A50E8;
+    --secondary-color: #E04AE8;
+    --thirdary-color: #C44AE8;
+    --fourthary-color: #AF98E8;
+    --fifthary-color: white;
+    --sixthary-color: #784AE8;
+}
+
+/*Small screens*/
+body {
+    background: var(--primary-color);
+}
+
+/* Columns */
+.columns {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*Dog sections*/
+.dog-section {
+  position: relative;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 95%;
+  margin: auto;
+  background: var(--fourthary-color);
+  padding: 10px;
+}
+
+/*"Please adopt" overlay*/
+.overlay {
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    background: var(--fourthary-color);
+    width: 85%;
+    opacity: 0;
+    padding: 20px;
+    color: var(--fifthary-color);
+    text-align: center;
+}
+/*Class to unhide the "please adopt"*/
+.dog-section:hover .overlay {
+  opacity: 1;
+}
+
+/*Button*/
+.button {
+    position: absolute;
+    top: 1%;
+    right: 5%;
+}
+
+/*Hidden class*/
+.hidden {
+    display: none;
+}
+
+/*Typography*/
+h1 {
+    text-align: center;
+    color: var(--secondary-color);
+}
+h2 {
+    text-align: center;
+    color: var(--thirdary-color);
+}
+h3 {
+    text-align: center;
+    color: var(--thirdary-color);
+}
+img {
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+
+/* Bigger screens */
+@media only screen and (min-width: 768px) {
+    /* Columns */
+    .columns {
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .dog-section {
+        width: 16%;
+    }
+}
