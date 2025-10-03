@@ -1,0 +1,19 @@
+[{
+    "_id":1,
+    "name": "batman",
+    "type": "novelty",
+    "brand": "none",
+    "line": "none",
+    "date": "10/??/????",
+    "img": "batman.jpg"
+
+},
+
+{
+    "_id":2,
+    "name": "beige_easter",
+    "type": "brand_name",
+    "brand": "infantino",
+    "line": "???",
+    "date": 
+}]

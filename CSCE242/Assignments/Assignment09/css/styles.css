@@ -1,0 +1,87 @@
+:root {
+    --primary-color: #4A50E8;
+    --secondary-color: #E04AE8;
+    --thirdary-color: #C44AE8;
+    --fourthary-color: #AF98E8;
+    --fifthary-color: white;
+    --sixthary-color: #784AE8;
+}
+
+/*Small screens*/
+body {
+    background: var(--primary-color);
+}
+
+/* Columns */
+.columns {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/*Sections*/
+.painting-section {
+    position: relative;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 95%;
+  margin: auto;
+  background: var(--sixthary-color);
+  padding: 10px;
+}
+
+/*Button*/
+.button {
+    position: absolute;
+    top: 1%;
+    right: 5%;
+}
+
+/*Hidden class*/
+.hidden {
+    display: none;
+}
+
+
+/*Typography*/
+h1 {
+    text-align: center;
+    color: var(--secondary-color);
+}
+h2 {
+    text-align: center;
+    color: var(--fourthary-color);
+}
+h3 {
+    text-align: center;
+    color: var(--fourthary-color);
+}
+p {
+    text-align: center;
+    color: var(--fourthary-color)
+}
+img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+}
+
+/* Bigger screens */
+@media only screen and (min-width: 768px) {
+    /* Columns */
+    .columns {
+        display: flex;
+        gap: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .painting-section {
+        width: 16%;
+    }
+
+}
