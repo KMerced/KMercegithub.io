@@ -66,8 +66,27 @@ main {
 }
 
 /* Slideshow */
+#slideshow {
+    position: relative;
+}
 #slideshow img {
     max-width:100%;
+}
+
+#back-button, #forward-button {
+    position: absolute;
+    background: white;
+    color: black;
+    text-decoration: none;
+    font-size: 3em;
+    top: 40%;
+    padding: 10px;
+}
+#forward-button {
+    right: 5%
+}
+#back-button {
+    left: 5%;
 }
 
 .links {
@@ -308,6 +327,10 @@ footer p {
         padding:10px;
         border-radius: 5px;
         margin:5px;
+    }
+
+    #breweries {
+        flex-wrap: wrap;
     }
 }
 

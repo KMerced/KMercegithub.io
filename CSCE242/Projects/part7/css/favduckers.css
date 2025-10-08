@@ -1,0 +1,89 @@
+:root {
+    --primary-color: #F28705;
+    --secondary-color: #F29F05;
+    --thirdary-color: #F2B705;
+    --fourthary-color: #260B01;
+    --fifthary-color: #401E01;
+    --sixthary-color: #D93D04;
+}
+
+/* Small screens */
+body {
+    background: var(--thirdary-color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Borders for small screens only */
+@media (max-width: 768px) {
+#title {
+    border: 1px solid var(--primary-color);
+}
+.duck-image {
+    border: 1px solid var(--primary-color);
+}
+.fav-reason {
+    border: 1px solid var(--primary-color);
+    padding: 10px;
+}
+}
+
+/* Back button */
+.back-button {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    text-align: center;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+    color: var(--fourthary-color);
+}
+h3 {
+    text-align: center;
+    color: var(--fifthary-color);
+}
+p {
+    text-align: center;
+    color: var(--fifthary-color);
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+}
+a {
+    color: var(--sixthary-color);
+    text-decoration: none;
+    background: var(--secondary-color);
+    padding: 10px;
+}
+p {
+    text-align: left;
+}
+
+/* Big screens */
+@media only screen and (min-width: 768px) {
+    .duck-stuff {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* Borders */
+    #title {
+        border-bottom: 1px solid var(--primary-color);
+    }
+    .duck-image {
+        border-bottom: 1px solid var(--primary-color);
+    }
+    .fav-reason {
+        border-bottom: 1px solid var(--primary-color);
+        padding: 10px;
+    }
+}
