@@ -1,9 +1,9 @@
 [{
     "_id":1,
-    "name": "batman",
+    "name": "Batman_Duck",
     "type": "novelty",
-    "brand": "none",
-    "line": "none",
+    "brand": "None",
+    "line": "None",
     "date": "10/??/????",
     "story": "I don't remember the exact date I got this duck, but I know it was during the yearly Halloween event that was held at the big gym at Fort Jackson. I believe I won this by winning a game that wasn't the Bobbing For Apples one. I believe they sometimes gave out ducks as a prize if you won a game.",
     "img": "batman.jpg"
@@ -12,9 +12,9 @@
 
 {
     "_id":2,
-    "name": "beige_easter",
+    "name": "Beige_Easter_Duck",
     "type": "brand_name",
-    "brand": "infantino",
+    "brand": "Infantino",
     "line": "???",
     "date": "??/??/????",
     "story": "I have no idea when or where I got this duck to be honest. I do remember playing with this duck as a kid together with my other rubber toys, especially the rubber killer whale. Out of the two I do have, this one I favor more.",
@@ -23,10 +23,10 @@
 
 {
     "_id":3,
-    "name": "blue",
+    "name": "Blue_Duck",
     "type": "novelty",
-    "brand": "none",
-    "line": "none",
+    "brand": "None",
+    "line": "None",
     "date": "??/??/????",
     "story": "I don't have an idea when I got this duck either, but I at least have a guess for this duck. I think these used to be sold at Walmart in packs of 3 and my mom bought one for me when I was a toddler. My mom told me that every time I saw rubber ducks while she was shopping, I'd say they were mine and she would have to tell me they actually weren't.",
     "img": "blue.jpg"
@@ -34,10 +34,10 @@
 
 {
     "_id":4,
-    "name": "butterfly",
+    "name": "Butterfly_Duck",
     "type": "brand_name",
-    "brand": "bullseyes_playground",
-    "line": "spring 2025",
+    "brand": "Bullseyes_Playground",
+    "line": "Spring_2025",
     "date": "07/31/2025",
     "story": "N/A",
     "img": "butterfly.jpg"
@@ -45,10 +45,10 @@
 
 {
     "_id":5,
-    "name": "construction_worker",
+    "name": "Construction_Worker_Duck",
     "type": "novelty",
-    "brand": "none",
-    "line": "none",
+    "brand": "None",
+    "line": "None",
     "date": "??/??/????",
     "story": "I have no idea when I got this duck. It's been in my possession since I was a child, but I have no leads as to how I got it. It's kind of an anomaly among my collection because of this, a mystery that might never be solved, a puzzle where you will never find the final piece.",
     "img": "construction_worker.jpg"
@@ -56,10 +56,10 @@
 
 {
     "_id":6,
-    "name": "fairy",
+    "name": "Fary_Duck",
     "type": "brand_name",
-    "brand": "bullseyes_playground",
-    "line": "spring 2025",
+    "brand": "Bullseyes_Playground",
+    "line": "Spring_2025",
     "date": "07/31/2025",
     "story": "N/A",
     "img": "fairy.jpg"
@@ -67,10 +67,10 @@
 
 {
     "_id":7,
-    "name": "firefly",
+    "name": "Firefly_Duck",
     "type": "brand_name",
-    "brand": "bullseyes_playground",
-    "line": "spring 2025",
+    "brand": "Bullseyes_Playground",
+    "line": "Spring_2025",
     "date": "07/31/2025",
     "story": "N/A",
     "img": "firefly"
@@ -78,10 +78,10 @@
 
 {
     "_id":8,
-    "name": "football",
+    "name": "Football_Duck",
     "type": "brand_name",
-    "brand": "bullseyes_playground",
-    "line": "fall 2025",
+    "brand": "Bullseyes_Playground",
+    "line": "Fall_2025",
     "date": "08/26/2025",
     "story": "I'm not entirely sure why there was a football duck in this year's lineup. I checked online for previous years and this is the only year where there was a football duck. My guess is that it has something to do with college football season starting in the fall. Regardless, I still like the duck!",
     "img": "football.jpg"
@@ -89,10 +89,10 @@
 
 {
     "_id":9,
-    "name": "frankies_fun_park_green_glitter",
+    "name": "Frankies_Fun_Park_Green_Glitter_Duck",
     "type": "jumbo",
-    "brand": "frankies_fun_park",
-    "line": "none",
+    "brand": "Frankies_Fun_Park",
+    "line": "None",
     "date": "01/11/2024",
     "story": "This was a duck I won by getting enough tickets from Frankie's Fun Park on my 18th birthday. I remember blowing about $35 on playing the skee-ball game over and over just so I could get enough tickets to redeem the duck. Looking back, I definitely overspent, but I don't mind since I had fun the whole time!",
     "img": "frankie_green_glitter.jpg"
@@ -100,10 +100,10 @@
 
 {
     "_id":10,
-    "name": "mini_dovakiin",
+    "name": "Mini_Dovakiin_Duck",
     "type": "brand_name",
-    "brand": "tubbz_cosplaying_ducks",
-    "line": "skyrim_series_mini",
+    "brand": "Tubbz_Cosplaying_Ducks",
+    "line": "Skyrim_Series_Mini",
     "date": "06/09/2025",
     "story": "I ordered this duck together with the Yuji Itadori duck for my younger sister's birthday (my younger sister is really into Jujutsu Kaisen). Skyrim is my favorite videogame of all time, so when I heard this duck existed in their lineup, I knew I had to pick it up. Seeing this duck really brings back memories of playing Skyrim when I was in middle school. It reminds me of simpler times when you came home from school, rushed to finish your math homework, then turned on the Xbox 360 to start playing. The memories of walking around the roads of Whiterun hold and listening to 'From Past to Present' play in the background is an experience you don't get anywhere else. I still play the game today, ableit heavily modded to make up for the game's flaws. I plan to buy the bigger boxed edition of this duck in the future as well!",
     "img": "mini_dovakiin.jpg"
@@ -111,10 +111,10 @@
 
 {
     "_id":11,
-    "name": "munchkin_bath",
+    "name": "Munchkins_Bath_Duck",
     "type": "misc",
-    "brand": "munchkins",
-    "line": "none",
+    "brand": "Munchkins",
+    "line": "None",
     "date": "??/??/????",
     "story": "I'll be honest here, I have no clue when I got this duck. I do remember though, that my mom would put this duck in the bathtub when I was in there for my younger self to play with. If the water became too hot, the 'HOT' base at the bottom would show it's color a bit. Funnily though, I remember this happening a lot with the duck so either the duck was giving false alarms, or the water was genuinely hot",
     "img": "munchkin_bath.jpg"
@@ -122,10 +122,10 @@
 
 {
     "_id":12,
-    "name": "outlaw",
+    "name": "Outlaw_Duck",
     "type": "novelty",
-    "brand": "none",
-    "line": "none",
+    "brand": "None",
+    "line": "None",
     "date": "10/??/????",
     "story": "I honestly have no idea when or where I got this duck. If I had to guess though, it was during the yearly Halloween event that was held at the big gym in Fort Jackson. I probably won it by winning one of the many games they had for kids to play.",
     "img": "outlaw.jpg"
@@ -133,10 +133,10 @@
 
 {
     "_id":13,
-    "name": "pink_glitter_witch",
+    "name": "Pink_Glitter_Witch_Duck",
     "type": "brand_name",
-    "brand": "bullseyes_playground",
-    "line": "fall 2025",
+    "brand": "Bullseyes_Playground",
+    "line": "Fall_2025",
     "date": "08/26/2025",
     "story": "N/A",
     "img": "pink_glitter_witch.jpg"
@@ -144,10 +144,10 @@
 
 {
     "_id":14,
-    "name": "pumpkin",
+    "name": "Pumpkin_Duck",
     "type": "brand_name",
-    "brand": "bullseyes_playground",
-    "line": "fall 2025",
+    "brand": "Bullseyes_Playground",
+    "line": "Fall_2025",
     "date": "08/26/2025",
     "story": "This was the first of the Halloween ducks I got for 2025. I rushed to buy the whole set of ducks the moment I saw they were available on the Target website (as they tend to sell out within days at my local Target). I went as soon as I was done with all my classes and there were barely any left, likely bought up by scalpers. I was lucky that there were still enough to get the full set of 5. Had I come the next day, I'm confident the store would've sold out.",
     "img": "pumpkin.jpg"
@@ -155,10 +155,10 @@
 
 {
     "_id":15,
-    "name": "purple_with_green_bill",
+    "name": "Purple_With_Green_Bill_Duck",
     "type": "brand_name",
-    "brand": "infantino",
-    "line": "none",
+    "brand": "Infantino",
+    "line": "None",
     "date": "??/??/????",
     "story": "I'll be honest here, I have no idea what this duck is even supposed to be. I've had this duck in my possession since I was a child, but I don't remember playing with it much.",
     "img": "purple_with_green_bill.jpg"
@@ -166,10 +166,10 @@
 
 {
     "_id":16,
-    "name": "scout",
+    "name": "Scout_Duck",
     "type": "brand_name",
-    "brand": "bullseyes_playground",
-    "line": "spring 2025",
+    "brand": "Bullseyes_Playground",
+    "line": "Spring_2025",
     "date": "07/31/2025",
     "story": "This was one of many of the Bullseye's Playground ducks I would get my hands on. I first found out about these ducks from the r/rubberducks community on Reddit and the molds looked cool, so I decided I'd start collecting this brand. Since then, I've been collecting more of these ducks as Target releases them.",
     "img": "scout.jpg"
@@ -177,10 +177,10 @@
 
 {
     "_id":17,
-    "name": "skeleton",
+    "name": "Skeleton_Duck",
     "type": "brand_name",
-    "brand": "bullseyes_playground",
-    "line": "fall 2025",
+    "brand": "Bullseyes_Playground",
+    "line": "Fall_2025",
     "date": "08/26/2025",
     "story": "N/A",
     "img": "skeleton.jpg"
@@ -188,10 +188,10 @@
 
 {
     "_id":18,
-    "name": "witch",
+    "name": "Witch_Duck",
     "type": "novelty",
-    "brand": "none",
-    "line": "none",
+    "brand": "None",
+    "line": "None",
     "date": "10/??/????",
     "story": "I don't remember the exact date I got this duck, but I know it was during the yearly Halloween event that was held at the big gym at Fort Jackson. If you won their version of Bobbing For Apples (which has rubber ducks in the water instead of apples), you got to keep the duck you 'bobbed' for!",
     "img": "witch.jpg"
@@ -199,10 +199,10 @@
 
 {
     "_id":19,
-    "name": "zombie",
+    "name": "Zombie_Duck",
     "type": "brand_name",
-    "brand": "bullseyes_playground",
-    "line": "fall 2025",
+    "brand": "Bullseyes_Playground",
+    "line": "Fall_2025",
     "date": "08/26/2025",
     "story":"N/A",
     "img": "zombie.jpg"
