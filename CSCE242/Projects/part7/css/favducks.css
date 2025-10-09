@@ -50,6 +50,34 @@ nav a {
     background: var(--primary-color);
 }
 
+/* Main navigation */
+#main-nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+#main-nav a {
+    text-decoration: none;
+    color: var(--sixthary-color);
+    padding: 10px 0;
+    display: block;
+}
+#main-nav li {
+    text-align: center;
+    padding: 10px;
+}
+
+/*Hamburger menu*/
+.hamburger {
+    cursor: pointer;
+    padding: 10px;
+    color: var(--sixthary-color);
+}
+
+/*Hidden class*/
+.hide-small {
+    display:none;
+}
+
 /* Favducks items */
 #favducks-main {
     text-align: center;
@@ -79,7 +107,6 @@ nav a {
 /* Back button */
 .back-button {
     width: 50%;
-    background: var(--secondary-color);
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -96,6 +123,10 @@ h1 {
     text-align: center;
     color: var(--fourthary-color);
 }
+h2 {
+    text-align: center;
+    color: var(--fifthary-color);
+}
 h3 {
     text-align: center;
     color: var(--fifthary-color)
@@ -107,6 +138,12 @@ img {
     width: 300px;
     height: 300px;
 }
+a {
+    color: var(--sixthary-color);
+    text-decoration: none;
+    background: var(--secondary-color);
+    padding: 10px;
+}
 
 /* Big Screens */
 @media only screen and (min-width: 768px) {
@@ -117,6 +154,7 @@ img {
         /*Favorite ducks */
     .fav-ducks {
         width: 20%;
+        position: relative;
 }
 
     /* Columns */
@@ -125,7 +163,16 @@ img {
         gap: 20px;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
 }
+
+    .fav-ducks a {
+        width: 80%;
+        flex-wrap: wrap;
+        position: absolute;
+        bottom: 0%;
+        left: 7%;
+    }
 
     /* Nav */
     .nav {
@@ -133,19 +180,25 @@ img {
     }
 
     /* Main navigation */
-    #category-nav li {
+    #main-nav li {
         flex: 1;
     }
-    #category-nav li, #category-nav li:first-child {
+    #main-nav li, #main-nav li:first-child {
     border: none;
     }
-    #category-nav a {
+    #main-nav a {
     text-align: center;
     padding: 10px;
     }
-    #category-nav a:hover {
-        border-bottom: 1px solid var(--primary-color);
-        background: var(--thirdary-color);
+
+    /*Hamburger*/
+    .hamburger {
+        display: none;
+    }
+
+    /*Hidden class*/
+    .hide-small {
+        display: block;
     }
 
     /* Back Button */

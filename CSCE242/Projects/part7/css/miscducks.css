@@ -115,6 +115,7 @@ a {
     }
     .misc-ducks {
         width: 20%;
+        position: relative;
     }
     .columns {
         display: flex;
@@ -122,6 +123,13 @@ a {
         flex-direction: row;
         flex-wrap: wrap;
 }
+    .misc-ducks a {
+        width: 80%;
+        flex-wrap: wrap;
+        position: absolute;
+        bottom: 0%;
+        left: 7%;
+    }
 
 /* Main navigation */
     #main-nav li {

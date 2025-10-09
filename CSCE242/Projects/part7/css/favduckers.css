@@ -18,6 +18,9 @@ body {
 #title {
     border: 1px solid var(--primary-color);
 }
+#nav {
+    border: 1px solid var(--primary-color);
+}
 .duck-image {
     border: 1px solid var(--primary-color);
 }
@@ -25,6 +28,34 @@ body {
     border: 1px solid var(--primary-color);
     padding: 10px;
 }
+}
+
+/* Main navigation */
+#main-nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+#main-nav a {
+    text-decoration: none;
+    color: var(--sixthary-color);
+    padding: 10px 0;
+    display: block;
+}
+#main-nav li {
+    text-align: center;
+    padding: 10px;
+}
+
+/*Hamburger menu*/
+.hamburger {
+    cursor: pointer;
+    padding: 10px;
+    color: var(--sixthary-color);
+}
+
+/*Hidden class*/
+.hide-small {
+    display:none;
 }
 
 /* Back button */
@@ -40,6 +71,10 @@ body {
 h1 {
     text-align: center;
     color: var(--fourthary-color);
+}
+h2 {
+    text-align: center;
+    color: var(--fifthary-color);
 }
 h3 {
     text-align: center;
@@ -85,5 +120,36 @@ p {
     .fav-reason {
         border-bottom: 1px solid var(--primary-color);
         padding: 10px;
+    }
+
+    /* Columns */
+    .columns {
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+/* Main navigation */
+    #main-nav li {
+        flex: 1;
+    }
+    #main-nav li, #main-nav li:first-child {
+    border: none;
+    }
+    #main-nav a {
+    text-align: center;
+    padding: 10px;
+    }
+
+    /*Hamburger*/
+    .hamburger {
+        display: none;
+    }
+
+    /*Hidden class*/
+    .hide-small {
+        display: block;
     }
 }

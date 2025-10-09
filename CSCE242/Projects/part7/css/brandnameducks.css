@@ -144,12 +144,25 @@ a {
         background-image: url(../images/background.jpg);
         background-size: cover;
     }
+
+    .brand-ducks {
+        position: relative;
+    }
+
+    .brand-ducks a {
+        width: 80%;
+        flex-wrap: wrap;
+        position: absolute;
+        bottom: 0%;
+        left: 7%;
+    }
     /* Columns */
     .columns {
         display: flex;
         gap: 20px;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
 }
 
     /* Nav */
