@@ -1,0 +1,208 @@
+:root {
+    --primary-color: #F28705;
+    --secondary-color: #F29F05;
+    --thirdary-color: #F2B705;
+    --fourthary-color: #260B01;
+    --fifthary-color: #401E01;
+    --sixthary-color: #D93D04;
+}
+
+/*Smaller screens */
+body {
+    background: var(--primary-color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#favducks-nav {
+    width: 95%;
+    margin: auto;
+    background: var(--secondary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#favducks-header {
+    background: var(--thirdary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Favducks nav */
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+nav a {
+    text-decoration: none;
+}
+#category-nav li {
+    border-bottom: 1px solid var(--primary-color);
+}
+#category-nav li:first-child {
+    border-top: 1px solid var(--primary-color);
+}
+#category-nav a {
+    color: var(--secondary-color);
+    padding: 10px 0;
+    display: block;
+}
+#category-nav a:hover {
+    background: var(--primary-color);
+}
+
+/* Main navigation */
+#main-nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+#main-nav a {
+    text-decoration: none;
+    color: var(--sixthary-color);
+    padding: 10px 0;
+    display: block;
+}
+#main-nav li {
+    text-align: center;
+    padding: 10px;
+}
+
+/*Hamburger menu*/
+.hamburger {
+    cursor: pointer;
+    padding: 10px;
+    color: var(--sixthary-color);
+}
+
+/*Hidden class*/
+.hide-small {
+    display:none;
+}
+
+/* Favducks items */
+#favducks-main {
+    text-align: center;
+}
+.fav-ducks {
+    width: 95%;
+    background: var(--primary-color);
+    padding: 5px;
+    border-radius: 5px;
+    margin: auto;
+}
+.fav-ducks a {
+    text-align: center;
+    color: var(--sixthary-color);
+    text-decoration: none;
+    background: var(--secondary-color);
+    padding: 10px;
+}
+
+/* Columns */
+.columns {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+/* Back button */
+.back-button {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+}
+.back-button a {
+    color: var(--sixthary-color);
+    text-decoration: none;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+    color: var(--fourthary-color);
+}
+h2 {
+    text-align: center;
+    color: var(--fifthary-color);
+}
+h3 {
+    text-align: center;
+    color: var(--fifthary-color)
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 300px;
+    height: 300px;
+}
+a {
+    color: var(--sixthary-color);
+    text-decoration: none;
+    background: var(--secondary-color);
+    padding: 10px;
+}
+
+/* Big Screens */
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url(../images/background.jpg);
+        background-size: cover;
+    }
+        /*Favorite ducks */
+    .fav-ducks {
+        width: 20%;
+        position: relative;
+}
+
+    /* Columns */
+    .columns {
+        display: flex;
+        gap: 20px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+}
+
+    .fav-ducks a {
+        width: 80%;
+        flex-wrap: wrap;
+        position: absolute;
+        bottom: 0%;
+        left: 7%;
+    }
+
+    /* Nav */
+    .nav {
+        display: flex;
+    }
+
+    /* Main navigation */
+    #main-nav li {
+        flex: 1;
+    }
+    #main-nav li, #main-nav li:first-child {
+    border: none;
+    }
+    #main-nav a {
+    text-align: center;
+    padding: 10px;
+    }
+
+    /*Hamburger*/
+    .hamburger {
+        display: none;
+    }
+
+    /*Hidden class*/
+    .hide-small {
+        display: block;
+    }
+
+    /* Back Button */
+    .back-button {
+        width: 10%;
+}
+}

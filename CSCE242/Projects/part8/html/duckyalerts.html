@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ducky Alerts System</title>
+        <link rel="stylesheet" href="../css/duckyalerts.css">
+    </head>
+
+    <body>
+        <div id="alerts-nav">
+            <header id="alerts-header">
+                <h1>Sign Up For Ducky Alerts!</h1>
+
+                <div  id="hamburger" class="hamburger">&#9776;</div>
+                <nav id="main-nav" class="hide-small">
+                    <h2>Main Navigation</h2>
+                    <ul class="columns">
+                        <li><a href="collection.html">Explore the collection</a></li>
+                        <li><a href="#">Click here for Ducky Alerts</a></li>
+                        <li><a href="favducks.html">Visit the favorite ducks list</a></li>
+                    </ul>
+                </nav>
+
+                <img src="../images/duckyalertlogo.jpg">
+                <section id="desc">
+                <h3>Enter your email address to sign up for my Ducky Alerts System! When you sign up, you'll recieve an email in your inbox whenever new ducks from different stores come out, no more, no less.</h3>
+                <h3>Your data won't be sold to anyone for any reason, duck's honor!</h3>
+                </section>
+
+                <section id="email-form">
+                <form method="POST" id="contact-form">
+
+                        <input type="hidden" name="access_key" value="7a166925-3545-445a-8f13-7da1f7862e21">
+
+                        <p>
+                            <label for="email">Enter your email address: </label>
+                        </p>
+                        <p>
+                            <input type="email" name="email" required>
+                        </p>
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                        <p><button type="submit">Click here to subscribe!</button></p>
+
+                        <div id="contact-result"></div>
+
+                    </form>
+                    </section>
+
+                    <section id="base">
+                    <h2>Base of Operations</h2>
+                    <p>This is where we're based in case you wanted to pop-in and say hi: </p>
+                    <p><strong>(Please note that this isn't my actual address for privacy reasons)</strong></p>
+                    <iframe  id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6614.933603108489!2d-81.02309842395502!3d34.00622692015814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f8a57e3028dedd%3A0xe7531b36340452a0!2s1332%20Pendleton%20St%2C%20Columbia%2C%20SC%2029208!5e0!3m2!1sen!2sus!4v1760664857304!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </section>
+
+                <div class="back-button">
+                    <a href="index.html">Click here to go back</a>
+                </div>
+            </header>
+        </div>
+        <script src="../js/email.js"></script>
+        <script src="../js/toggle-nav.js"></script>
+        <script src="../js/duckyalerts.js"></script>
+    </body>
+</html>

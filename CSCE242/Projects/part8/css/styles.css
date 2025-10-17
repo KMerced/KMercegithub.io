@@ -1,0 +1,127 @@
+:root {
+    --primary-color: #F28705;
+    --secondary-color: #F29F05;
+    --thirdary-color: #F2B705;
+    --fourthary-color: #260B01;
+    --fifthary-color: #401E01;
+    --sixthary-color: #D93D04;
+}
+
+/* Smaller screens */
+body {
+    background: var(--primary-color);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#front-nav {
+    width: 95%;
+    margin: auto;
+    background: var(--secondary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#main-header {
+    background: var(--thirdary-color);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Main navigation */
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+nav a {
+    text-decoration: none;
+}
+#main-nav li {
+    border-bottom: 1px solid var(--primary-color);
+}
+#main-nav li:first-child {
+    border-top: 1px solid var(--primary-color);
+}
+#main-nav a {
+    color: var(--sixthary-color);
+    padding: 10px 0;
+    display: block;
+}
+#main-nav a:hover {
+    background: var(--primary-color);
+}
+
+/*Hamburger menu*/
+.hamburger {
+    cursor: pointer;
+    padding: 10px;
+    color: var(--sixthary-color);
+}
+
+/*Hidden class*/
+.hide-small {
+    display:none;
+}
+
+/* Typography */
+h1 {
+    text-align: center;
+    color: var(--fourthary-color);
+}
+h2 {
+    text-align: center;
+    color: var(--fifthary-color);
+}
+h3 {
+    text-align: center;
+    color: var(--fifthary-color);
+}
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+}
+
+/* Bigger Screens */
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url(../images/background.jpg);
+        background-size: cover;
+    }
+    #front-nav {
+        width: 70%;
+    }
+
+    /* Columns */
+    .columns {
+        display: flex;
+    }
+
+    /* Main navigation */
+    #main-nav li {
+        flex: 1;
+    }
+    #main-nav li, #main-nav li:first-child {
+    border: none;
+    }
+    #main-nav a {
+    text-align: center;
+    padding: 10px;
+    }
+    #main-nav a:hover {
+        border-bottom: 1px solid var(--primary-color);
+        background: var(--thirdary-color);
+    }
+
+    /*Hamburger*/
+    .hamburger {
+        display: none;
+    }
+
+    /*Hidden class*/
+    .hide-small {
+        display: block;
+    }
+}
+
