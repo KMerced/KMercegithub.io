@@ -85,10 +85,12 @@ body {
 /* Assignment navigation */
 #assignment-nav li {
     flex: 1;
+    padding: 20px;
     text-align: center;
 }
 #project-nav li {
     flex: 1;
+    padding: 20px;
     text-align: center;
 }
 }
